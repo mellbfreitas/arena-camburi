@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARENA CAMBURI</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#esportes">Esportes</a></li>
+            <li><a href="#serviços">Nossos Serviços</a></li>
+            <li><a href="#cadastro">Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <section id="Home">
+        <h1>ARENA CAMBURI</h1>
+        <p class="inicio"> Sejam bem vindos a arena camburi!</p>
+        <p class="inicio"> Um espaço para praticar esportes, se divertir e aproveitar momentos incríveis. </p>
+    </section>
+
+     <section id="sobre">
+        <h2> Sobre a Arena Camburi</h2>
+        <p> A Arena Camburi é um espaço dedicado à prática esportiva, oferecendo um ambiente para quem <br>
+        gosta de praticar esportes, reunir os amigos e aproveitar momentos de lazer. </p> 
+        <p> Faça parte da nossa família e venha conhecer a Arena Camburi! </p>
+
+        <h3>Onde estamos</h3>
+
+        <p>Estamos localizados em Camburi, Vitória - ES.</p>
+        <a class="localizacao" href="https://www.google.com/maps/place/ARENA+CAMBURI/@-20.2597317,-40.2634642,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xb819e4d930eedb:0xb1cb3f6d38892c5e!8m2!3d-20.2597317!4d-40.2634642!16s%2Fg%2F11ltssfr_h?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D"
+         target="_blank">Ver localização no Google Maps</a>
+
+        <hr>
+        <img src="./ARENA LOGO.jpg"></img>
+        <hr>
+
+        <h3>O que você pode encontrar na Arena</h3> 
+        <ul class="lista-info">  
+            <li>Espaço para lazer</li> 
+            <li>Atividades esportivas</li> 
+            <li>Momentos com amigos</li> 
+            <li>Diversão e entretenimento</li> 
+            <li>Quadras para prática esportiva</li>
+        </ul>
+    </section>
+
+    <section id="esportes">
+        <h2>Esportes</h2>
+        <p>Confira algumas das modalidades que podem fazer parte da experiência na Arena Camburi:</p>
+        <h3>Modalidades</h3> 
+        <ol> 
+            <li>Futevôlei</li> 
+            <li>Vôlei</li> 
+            <li>Beach Tennis</li> 
+        </ol>
+    </section>
+
+    <section id="serviços">
+        <h2>Conheça um poucos do que oferecemos no nosso espaço</h2>
+
+        <dt>Aulas de Futevôlei</dt>
+    <dd>Temos aula de futevôlei com diferentes professores e diferentes didáticas procurando o melhor pra você</dd>
+
+        <dt>Aluguel de quadra</dt>
+    <dd>Aqui nós alugamos a nossa quadra pelo tempo que você desejar paara que possa chamar seus amigos e se divertir jogando.</dd>
+
+        <dt>Aluguel do espaço para eventos</dt>
+    <dd>Nós também alugamos todo o espaço para você se divertir ainda mais, podendo utilizar a quadra e o espaço de fora pelo dia inteiro.</dd>
+
+        <p class="informações">Entre em contato para mais informações</p>
+        <button>
+            <a href="https://linktr.ee/arenacamburi"> Clique aqui</a>
+        </button>
+
+    </section>
+
+    
+    <section id="cadastro">
+        <h2>Informações para cadastro.</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tel">Telefone:</label>
+            <input type="number" id="tel" name="telefone" required
+            placeholder="(99) 99999-9999">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required
+            placeholder="Digite sua mensagem"></textarea>
+
+            <input type="submit" value="Enviar" class="cor"
+            onclick="alert('Cadastro feito com sucesso!');">
+
+            <input type="reset" value="Cancelar" class="cor">
+        
+        </form>
+
+        <h2>Esporte que você gostaria que tivesse na nossa arena:</h2>
+        <hr>
+        <form class="favorito">
+            <fieldset>
+                <legend>Escolha:</legend>
+
+                <input type="checkbox" name="esporte" id="rdfutevolei" value="ftv">
+                <label for="rdfutevolei">Futevôlei<br></label>
+
+                <input type="checkbox" name="esporte" id="rdvolei" value="vl">
+                <label for="rdvolei">Vôlei<br></label>
+
+                <input type="checkbox" name="esporte" id="rdbeach tennis" value="bt">
+                <label for="rdbeach tennis">Beach Tênis<br></label>
+
+                <input class="botaodeenvio" type="submit" value="Enviar">
+            
+            </fieldset>
+        </form>
+    </section>
+
+
+    
+
+    <hr>
+
+    <h2>Aqui temos um vídeo irado de um dos torneios que organizamos aqui na nossa casinha!</h2>
+
+    <video controls width="400" height="700">
+        <source src="./downloadgram.org_AQM8KIFozXh5Ity50bouFdh-8SVJtbZxfSqdmMv2H8AUXQ_xqCYpYeZydbTPSy-Z3NLqWQRLfRL97NDO9_v8lT1romCsBFlodH0eypY.mp4" type="video/mp4">
+        
+        <track kind="subtitles" srclang="pt-br" src="./downloadgram.org_AQM8KIFozXh5Ity50bouFdh-8SVJtbZxfSqdmMv2H8AUXQ_xqCYpYeZydbTPSy-Z3NLqWQRLfRL97NDO9_v.vtt"
+        label="legendas pt-br" default>
+    </video>
+
+    <hr>
+
+
+<table border="1">
+    <caption>Valores de Aluguel de Quadra:</caption>
+    <thead>
+        <tr>
+            <th>Tempo</th>
+            <th>Valor</th>
+            <th>Oferta</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align=center>1 hora</td>
+            <td align=center>100 reais</td>
+            <td rowspan="5" align=center>Aceitamos sugestão de valor para escolha <br>
+                do melhor preço para você</td>
+            
+        </tr>
+
+        <tr>
+            <td align=center>2 horas</td>
+            <td align=center>170 reais</td>
+            
+        </tr>
+
+        <tr>
+            <td align=center>3 horas</td>
+            <td align=center>250 reais</td>
+            
+        </tr>
+
+         <tr>
+            <td align=center>4 horas</td>
+            <td align=center>320 reais</td>
+            
+        </tr>
+
+         <tr>
+            <td align=center>+4 horas</td>
+            <td align=center>Entre em contato</td>
+            
+        </tr>
+
+    </tbody>
+
+
+</table>
+
+
+     </section>
+
+     <hr>
+
+<button class="botaofinal">
+    <p>Venha fazer parte da Arena Camburi!<br>
+Mais do que um espaço para praticar esportes, a Arena Camburi é um lugar para se divertir, <br>
+conhecer pessoas e criar bons momentos. Seja para agendar uma aula experimental, alugar uma quadra <br>
+ou realizar seu evento, estamos esperando por você. Entre em contato conosco e venha viver essa experiência!</p>
+ </button>
+
+ <hr>
+
+ <footer>
+    <p>Nos siga no Instagram!!</p>
+    <ul>
+        <li><a href="https://www.instagram.com/arena.camburi/">Arena Camburi</a></li>
+        <li><a href="https://www.instagram.com/lucasribeiro_treinador/">Lucas Ribeiro</a></li>
+    </ul>
+    <p>&copy; Arena Camburi - Todos os direitos reservados.</p>
+ </footer>
+
+
+
+    
+</body>
+</html>
